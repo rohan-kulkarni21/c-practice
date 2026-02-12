@@ -14,5 +14,5 @@ diff=a-b;
 
 printf("the difference between two number is %d", diff);
 
-return0;
+return 0;
 }
