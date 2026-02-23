@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+    int arr[5], i, product = 1;
+
+    printf("Enter 5 numbers:\n");
+
+    for(i = 0; i < 5; i++) {
+        scanf("%d", &arr[i]);
+        product = product * arr[i];
+    }
+
+    printf("Product = %d", product);
+
+    return 0;
+}
